@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div class="app-container">
+  <div class="stars" id="stars"></div>
+  
+  <!-- Intro Page -->
+  <div class="intro-page" id="introPage">
+    <div class="intro-message">
+      Ready for something special?
+    </div>
+    <button class="explode-btn" onclick="explode()">
+      Click Me! 🎉
+    </button>
+  </div>
+
+  <div class="celebration-text" id="celebrationText">
+    Happy New Year<br>Asmae! 🎊
+  </div>
+
+  <!-- Main Content -->
+  <div class="content" id="mainContent">
+    <div class="header">
+      <div class="app-title">Hey Asmae 💛</div>
+      <div class="subtitle">Happy New Year 2026</div>
+    </div>
+
+    <div class="button-container">
+      <button class="nav-btn active" onclick="showSection(0)">Start</button>
+      <button class="nav-btn" onclick="showSection(1)">A Note</button>
+      <button class="nav-btn" onclick="showSection(2)">You & Me</button>
+      <button class="nav-btn" onclick="showSection(3)">Looking Forward</button>
+    </div>
+
+    <div class="progress-indicator">
+      <div class="dot active" id="dot0"></div>
+      <div class="dot" id="dot1"></div>
+      <div class="dot" id="dot2"></div>
+      <div class="dot" id="dot3"></div>
+    </div>
+
+    <div class="section active" id="section0">
+      <div class="section-title">Starting Fresh</div>
+      <div class="section-text">
+        <p>I wanted to make something for you as we start this new year. Not because I had to, but because you matter to me.</p>
+        <p>I know things haven't always been easy for you. I know there's stuff from your past that still comes up sometimes. But I want you to know that none of that defines who you are now.</p>
+        <p>You're here. You made it through. And that takes real strength.</p>
+        
+        <div class="photo-container">
+          <img id="asmaePic1" src="https://i.imgur.com/I76T2rH.jpeg" alt="Asmae">
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="section1">
+      <div class="section-title">What I See</div>
+      <div class="section-text">
+        <p>When I think about you, I don't see someone who needs fixing or saving. I see someone who's already done the hard work of healing themselves.</p>
+        <p>You're kind without being naive. You're strong without being hard. You managed to keep your heart open even when life gave you reasons to close it off.</p>
+        <p>That's rare, and I don't take it for granted.</p>
+        
+        <div class="music-box">
+          <div class="music-icon">🎵</div>
+          <div style="color: #a29bfe; font-style: italic; margin-top: 10px;">
+            "Call Me By Your Name" still hits different when I think of us
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="section2">
+      <div class="section-title">Us</div>
+      <div class="section-text">
+        <p>I'm not going to pretend I have all the answers or that I always know the right thing to say. But I can promise you this: I'm here, and I'm not going anywhere.</p>
+        <p>Whatever you need - space, support, someone to just listen - I got you.</p>
+        <p>You don't have to go through anything alone anymore unless you want to. And even then, I'll be around when you're ready.</p>
+        
+        <div class="photo-container">
+          <img id="asmaePic2" src="https://i.imgur.com/JHqAZvt.jpeg" alt="Asmae">
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="section3">
+      <div class="section-title">2026</div>
+      <div class="section-text">
+        <p>I have a good feeling about this year. Not in some magical way, but because I think we're both in a better place than we've been.</p>
+        <p>Let's make it count. Try new things. Take some chances. See where life takes us.</p>
+        <p>Whatever happens, we'll figure it out together.</p>
+        
+        <div class="photo-container">
+          <img id="asmaePic" src="https://i.imgur.com/3KneatN.jpeg" alt="Asmae">
+        </div>
+        
+        <div class="final-note">
+          <div class="heart">💕</div>
+          <p>Here's to new beginnings, better days, and having each other's backs.</p>
+          <p style="color: #ffeaa7; margin-top: 20px;">Happy New Year, Asmae</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
